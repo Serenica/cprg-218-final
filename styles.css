@@ -2,11 +2,41 @@ h1{
   font-family: "Modak", system-ui;
   font-weight: 400;
   font-style: normal;
-  }
+  text-align: center;
+  font-size: 70px;
+}
+
+h2{
+  font-family: "Atma", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+}
+  
+h3{
+  font-family: "Atma", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
 p{
   font-family: "Atma", system-ui;
   font-weight: 400;
   font-style: normal;
+}
+
+#botd {
+float: left;
+display: block;
+ }
+ 
+#book_image {
+  max-width: 50%;
+  max-height: auto;
+}
+ 
+#book_description {
+  font-size: 70 px;
 }
 
 body{

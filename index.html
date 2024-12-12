@@ -5,27 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Miss Serenica's Story Corner</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Modak&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Atma:wght@400;600;700&family=Modak&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <nav>
-      <a href="index" class="active">Home</a>
-      <a href="streams.html">LiveStream</a>
-      <a href="more_books.html">More Books</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <a href="index.html" class="active">Book of the Day</a>
+      <a href="streams.html">Storytime with Miss Serenica</a>
+      <a href="more_books.html">BookNook</a>
       </a>
     </nav>
 
-    <h1>This is the Home Page!</h1>
-    <p>This is sample text, to ensure the font is working on each page.</p>
+    <h1 id="help">Welcome to Miss Serenica's Story Corner!</h1>
+    <section id="botd">
+      <h2 id="book">Miss Serenica's Book of the Day:</h2>
+      <h3 id="book_title"></h3>
+      <img src="" id="book_image">
+      <p id="book_description"></p>
+    </section>
+    
+    
   
-  
+    
     <script src="magic.js"></script>
   </body>
 </html>

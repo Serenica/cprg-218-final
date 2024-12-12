@@ -5,25 +5,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Miss Serenica's Story Corner</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Modak&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Atma:wght@400;600&family=Modak&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="more_books.css">
   </head>
   <body>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="streams.html">LiveStream</a>
-      <a href="more_books.html" class="active">More Books</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <a href="index.html">Book of the Day</a>
+      <a href="streams.html">Storytime with Miss Serenica</a>
+      <a href="more_books.html" class="active">BookNook</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
       </a>
     </nav>
-    <h1>This is the BookList Page!</h1>
-    <p>This is sample text, to ensure the font is working on each page.</p>
-  
+    <h1>BookNook</h1>
+
+  <section id="unique">
+    <label for="pick">Need A Book Recommendation?</label>
+    <select id="pick">
+    <option value="">--What Kind of Book Do You Feel Like Reading?--</option>
+    <option value="happy">Happy</option>
+    <option value="silly">Silly</option>
+    <option value="Sad">Sad</option>
+    <option value="random">Recommend a Random Book!</option>
+    </select>
+
+    <p id=sass></p>
+  </section>
+
+
+
+    <article id="sunday">
+      <h3 id="sunday_book_title">Iggy Peck Architect by Andrea Beaty</h3>
+      <img src="iggy.webp" id="sunday_book_image" alt="A book cover showing cartoons of a boy building things, and a stern looking teacher">
+      <p id="sunday_book_description">Iggy Peck may have trouble paying attention in school, but he sure doesn't have trouble building things! Join Iggy Peck on his adventures with his class, and find out if he saves the day!</p>
+      <a href="https://www.amazon.ca/Iggy-Peck-Architect-Andrea-Beaty/dp/081091106X?crid=3NP7FYC2E9GDA&dib=eyJ2IjoiMSJ9.F1y-GXZlR2qpaoInemTH4d-2vemq_vUSYdSoUteGEQ8ZOoWRlkYUm8CP1A6Zq7vI-64mXUhGVe7RtvlH7NWvhIpTNTciD-lvenY2uAXM-7GOgOtf70mVUCsalT8bwxYvKRcX0oTXVZoPHa3_WILk3Khdr24FVXe9xvY34CpLLoGyCffOVKkQ8n1rslsO40ycNsyZ6sr3XyCut4yGugWqyGAnD5Kf4DjN8rzZi0czSsKGq-8E3lpEmY8jw6L5KmJKcEQNJWFknSisereSVPfJDA.lB2nUjhyTIGyBusNJiaYa0oR7emPBtGvnrO0azvdfOw&dib_tag=se&keywords=iggy+peck+architect&qid=1733961167&sprefix=Iggy+%2Caps%2C124&sr=8-1" class="button" alt="A link to the book on amazon.ca">Click Here to Buy this Book! Ask Your Parents Before You Purchase!</a>
+    </article>
+
+    <article id="monday">
+      <h3 id="monday_book_title">Ada Twist Scientist by Andrea Beaty</h3>
+      <img src="ada.webp" id="monday_book_image" alt="A book cover showing cartoons of a girl doing science experiments">
+      <p id="monday_book_description">Miss Lila Greer and the Second Grade Class at Blue River Creek Elementary are back! Ada has always loved asking questions and finding answers. Can she find the answer to save the day this time?</p>
+      <a href="https://www.amazon.ca/Twists-Project-Book-Stellar-Scientists/dp/141973024X?crid=S6BXC9DFVFK7&dib=eyJ2IjoiMSJ9.aWJHQgqM_fCFh-lDti1ibTBtZ4HZ3svZj5AbRX_4GzSAYDgiOG5YmiMFPzuLfe0xxx2lTJRDa2wz3-FvgWLaLMSOatE7EwgNtGXPYBnkZsQ1JoJeGtpAJZn52Qy6P1htY5WLDhvXuYJgbuhcxvRyICv2mrRXgfp8sdjqwdjSWajF3u6li61U3HPYRcEi4cDNuQw-cjg7N-UXCDc2xDf7EhEC3oaKlBnNwJgSt1Yzprugzq4AeG2ZaNamdkrH1nuzqk3cFqOwjb90muiJr2efe-UBJlLL8Ju57rx8uh5w6C0.lkcgxvMpXG7x7pYDsCMghqSb6NI4vMJeGzDxvq3oXhM&dib_tag=se&keywords=ada+twist+scientist&qid=1733961561&sprefix=Ada+T%2Caps%2C127&sr=8-2" class="button" alt="A link to the book on amazon.ca">Click Here to Buy this Book! Ask Your Parents Before You Purchase!</a>
+    </article>
+
+    <article id="tuesday">
+      <h3 id="tuesday_book_title">Rosie Revere Engineer by Andrea Beaty</h3>
+      <img src="rosie.webp" id="tuesday_book_image" alt="a book cover showing cartoons of a girl holding a string, connected to a pair of balloon pants worn by her uncle. The man in the pants is floating above her head like a balloon. He is a full sized full grown man. It is clear engineering has happened here.">
+      <p id="tuesday_book_description">All pretending aside, this is one of my favourite children's books in my collection. There is a Rosie the Riveter easter egg, there is social emotional learning, there is complex things for kids, this book has everything. This book is incredibly pro-STEAM in an incredibly accessible way. The only book I have that's better than this one is Ara the Star Engineer, which is about coding and working at Google, but I can't find that one to take a picture of.</p>
+      <a href="https://www.amazon.ca/Rosie-Revere-Engineer-Andrea-Beaty/dp/1419708457?crid=212WTZTKM5O7B&dib=eyJ2IjoiMSJ9.1IQGPJbF889N3FcPwi56DdCw5YOAOfuFL4JjUd5YcBWUPO8MJdo9a44Bf5XcIRFwdloJorLFdhFR7bIXLv1TIxYlcxoXMy-Z474mD3wagUJq0bFTb8MA7hhIqbDvPPXWCh6F7DElEGUa0mDgZ_DOWg23vsMu_pTA6f43y07uxMih2fwEJqGNW5ADXojLbjhwnTmoTDiYyzS6n892SVbpGVhPuk9zB7D2IG5BafnOV9ujg0ohScfgO7fPnGEjdEnLcJDHmoIxGDWmm2BOBYWi7Enn5js4Pwt2gJaR-H4jjG8.Wk5op1Hb_0tZ1EkN9KYNgbY5Yp8glh0BnNOHH-0bh2o&dib_tag=se&keywords=rosie+revere&qid=1733966335&sprefix=Rosie+Rev%2Caps%2C134&sr=8-1" class="button" alt="A link to the book on amazon.ca">Click Here to Buy this Book! Ask Your Parents Before You Purchase!</a>
+    </article>
+    
+    <article id="wed">
+      <h3 id="wed_book_title">Sofia Valdez Future Prez by Andrea Beaty</h3>
+      <img src="sofia.webp" id="wed_book_image" alt="a book cover with the jacket off, showing a cartoon drawing of a impressive small town city hall">
+      <p id="wed_book_description">Once again, we return to Miss Lila Greer and the second grade class at Blue River Creek. This time, our second grade heroine is plucky girl who is striving for social equity and fairness for all. Democracy is also involved.</p>
+      <a href="https://www.amazon.ca/Sofia-Valdez-Future-Andrea-Beaty/dp/141973704X?crid=2GYATXO42099H&dib=eyJ2IjoiMSJ9.Un27FcmC-QEugcfs58lX_BXYgYjR6njnZxtXHJbb54DXvNQ0oO7ly7-hj8ufn8Bw.Cijw9D3JDZ9ZBdfNgU52Abh-pOmk3gp1aIrWK4YEglU&dib_tag=se&keywords=sofia+valdez+future+prez&qid=1733962883&sprefix=sofia+veldez+fu%2Caps%2C114&sr=8-1" class="button" alt="A link to the book on amazon.ca">Click Here to Buy this Book! Ask Your Parents Before You Purchase!</a>
+    </article>
+    
+    <article id="thurs">
+      <h3 id="thurs_book_title">Chester's Way by kevin Henkes</h3>
+      <img src="chester.webp" id="thurs_book_image" alt="a young cartoon mouse, who is vaguely human in his appearence and wearing a red zippie and checked shorts, stands on a lawn playing croquet">
+      <p id="thurs_book_description">Chester and his best friend have a very fun time being best friends. They do everything together, and wouldn't change a single thing about their lives. Then one day, Lily moves in down the street. Can these two friends make room for someone new in their lives, and new ways of doing things?</p>
+      <a href="https://www.amazon.ca/Chesters-Way-Kevin-Henkes/dp/0688154727?crid=10NLWNF6XVH8N&dib=eyJ2IjoiMSJ9.24qYASfvK1j-c8zfeYZ94jnJ5TwzqifDwavd9Ras3IzHAgm7IqdW6fcSI5TmSK4Ppav2pzA-xPz1e6ieQA8-Z7sGu83Y2lo66mWP6ewb3UqlrC0gOS13Ec12PlPkQ3aT4hw1nNmoXPjqX4MVlchAlacnUnbddeIPAvqlN_Gu0kIySWWRmWbbZviyUwscTJEfyzjjW9AIysDNXkVvIGVRXV54BnrB647m0HVKKUft8pM2Hn6WDqL_I_cY3_rw_s-GatC-A9d5mFz6HxSzv9LBGVkYeaFaGK78oOqrY2yTnb0.B3a8W-35ySRZMgH1VL4ChMsuOrp0iMCiIIn5z4NgaVU&dib_tag=se&keywords=chester%27s+way&qid=1733966440&sprefix=chester%27s+way%2Caps%2C130&sr=8-1" class="button" alt="A link to the book on amazon.ca">Click Here to Buy this Book! Ask Your Parents Before You Purchase!</a>
+    </article>
+    
+    <article id="fri">
+      <h3 id="fri_book_title">Finding Winnie by Lindsay Mattick</h3>
+      <img src="winnie.webp" id="fri_book_image" alt="a slightly realistically drawn illustration of a brown bear cub hugs the booted foot of a WWI solider against a yellow angora background. The bear is looking shyly at the reader.">
+      <p id="fri_book_description">Before his stuff and fluff became known across the land as Winnie The Pooh, friend of Christopher Robin, there was a real bear in need of a loving family. This bear found her home on the front lines of WWI with a very brave veterinarian. Get your parents their sad storytime kleenex, and get ready to cuddle up and read all about a bear named Winnie.</p>
+      <a href="https://www.amazon.ca/Finding-Winnie-Lindsay-Mattick/dp/144342918X?crid=5KR910MJTQFW&dib=eyJ2IjoiMSJ9.ciL04wQx_GuI0J_xYMa9k0A-MghdDIRerktLfE9cO2rNEtU3I_l9ynbavJSaeqz5KN_r78D6W5I4oguKNu8yjn5vwmffTnw6ZiVarvJdVNd2pOhOedGritOpHWS7Z_2QfKJFpCL6Q3NAQ7t9Qob1-U3DWhNoMB9DNYU5PO0-J8IRCyfGirtIjUzUeeSzkN9y.gmzYqT-wBxiE_cZZJr_97GTFQyBWLBkxoRU5CYaXkNI&dib_tag=se&keywords=Finding+Winnie&qid=1733966357&sprefix=finding+winnie%2Caps%2C116&sr=8-1" class="button" alt="A link to the book on amazon.ca">Click Here to Buy this Book! Ask Your Parents Before You Purchase!</a>
+    </article>
+
+    <article id="sat">
+      <h3 id="sat_book_title">The Jolly Christmas Postman</h3>
+      <img src="cjpp.jpg" id="sat_book_image" alt="a cartoon postman and several fairy tale characters stand around a christmas tree">
+      <p id="sat_book_description">The Jolly Postman returns, this time to deliver seasons greetings and Christmas Wishes! This book contains small parts.</p>
+      <a href="https://www.amazon.ca/Jolly-Christmas-Postman-Allan-Ahlberg/dp/0141340118?crid=36H87LALJCAU1&dib=eyJ2IjoiMSJ9.4zIFv5q1PuHaCOoIkkJqcf3YNwq-gEUhsFzQwB3l3Unpy562ZY0F4lt9W-KnyYdrmmKUWIM7Xe4fmpuKv8T_htZB8Ue6P1_Z_Xiy4bSFfnXU37qUZBfkKhHC1QneO23bpYzwFdMeNJYvhK57wQ6R4Dgw1H5_o5ecMsuWW1Hva3BmBS62oM_PGEVv-WSKIRhp0lxgyVxyZpzAV4YhSPq1tkzrThdEWfgBA1QEsSMWRfjHvRa1TiH-ZC5gNArOHPm9cIdUZPkN5_uGLTwcaoKZGzpzJ2QmDSiJ7Du1_aK8g54.WjS0ezBNN-XpJe4VL7TdndKSUyZ8H5GNsG49qMWnnVw&dib_tag=se&keywords=the+jolly+christmas+postman&qid=1733966453&sprefix=The+Jolly+%2Caps%2C119&sr=8-1" class="button" alt="A link to the book on amazon.ca">Click Here to Buy this Book! Ask Your Parents Before You Purchase!</a>
+    </article>
+    
+
+    <article id="extra1">
+      <h3 id="e1_book_title">Jonathan Cleaned Up--Then He Heard a Sound by Robert Munsch</h3>
+      <img src="jcu.webp" id="e1_book_image" alt="A cartoon boy looking shocked as a trainload of people walk off the train in the wall and through his living room">
+      <p id="e1_book_description">Jonathan's mother asks him to clean up before she leaves to run her errands and right before she gets home, a whole bunch of people walk through the living room and make a huge mess! Will Jonathan's mom believe him?</p>
+      <a href="https://www.amazon.ca/Jonathan-Cleaned-Up-Then-Heard-Sound/dp/1773210882?crid=3U1Y2FVRZZ7KO&dib=eyJ2IjoiMSJ9.HOfkV6BKKNVRObGnXCveb7rH3epMhEe5nUCsxWIy9bHGjHj071QN20LucGBJIEps.5zBFwQgHo-QoLIxkPWh4Fcl4hvRFyJ3WXc548KccTVg&dib_tag=se&keywords=jonathan+cleaned+up--then+he+heard+a+sound&qid=1733970392&sprefix=Johnathan+clean%2Caps%2C123&sr=8-1" class="button" alt="A link to the book on amazon.ca">Click Here to Buy this Book! Ask Your Parents Before You Purchase!</a>
+    </article>
+
+    <article id="extra2">
+      <h3 id="e2_book_title">P is for Pterodactyl by Raj Haldar</h3>
+      <img src="dyctal.webp" id="e2_book_image" alt="A purple pterodactyl flys in a blue sky. Book Cover Says p is for pterodactyl, the worst alphabet book ever!">
+      <p id="e2_book_description">English is a really hard language. Almost all of the words in this book have sneaky silent letters. Can you pronounce all of these words right?</p>
+      <a href="https://www.amazon.ca/Pterodactyl-Worst-Alphabet-Book-Ever/dp/1492674311?crid=2M89T7E8YMU4Q&dib=eyJ2IjoiMSJ9.87bVghZq8SsfLqTNoeBv63di7ZO7FhHmh2q8ud2lzjigAk06mZA5X45e0924bjKsTGXeHbr9DsmI8QNrtG2vNuLam_qNd6GHg7DU1P9-pR4o-mmPZApfkb_eu0bNtf7dMjL6wTxBMTcia3Ljljgx5w.hYqHZvRaLedgMhmsVUZ4lrypOjlODt1oRB_9y9FaJE8&dib_tag=se&keywords=p+is+for+pterodactyl&qid=1733970533&sprefix=P+is+fo%2Caps%2C120&sr=8-1" class="button" alt="A link to the book on amazon.ca">Click Here to Buy this Book! Ask Your Parents Before You Purchase!</a>
+    </article>
+    
     <script src="booklist.js"></script>
   </body>
+  <footer>© Copyright 2024 HFDesigns</footer>
 </html>

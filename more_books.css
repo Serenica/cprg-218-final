@@ -1,16 +1,53 @@
 h1{
-    font-family: "Modak", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    }
+  font-family: "Modak", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 70px;
+}
+
+  
+h3{
+  font-family: "Atma", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 50px;
+}
+
 p{
-    font-family: "Atma", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    }
+  font-family: "Atma", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+img {
+  max-width: 50%;
+  max-height: auto;
+}
+
+#unique{
+  font-family: "Atma", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
 body{
     background-color: #FFDFE9
   }
+
+.button {
+  font: bold 20px Arial;
+  text-decoration: none;
+  background-color: #FA76A0;
+  color: #FFFFFF;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
   
   
    nav {
